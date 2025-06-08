@@ -81,3 +81,13 @@
     margin-right: 10px;
   }
 }
+
+.navbar-collapse {
+    background-color: #d5e6ff; /* mesma cor de fundo do site ou use #fff se quiser branco */
+}
+
+.navbar-collapse .nav-link {
+    color: #333 !important;
+}
+
+
