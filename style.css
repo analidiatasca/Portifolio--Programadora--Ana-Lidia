@@ -1,0 +1,75 @@
+.btsobremim {
+    margin-top: 12px; /* adicione essa linha */
+    margin-left: -1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #d5e6ff;
+    border: solid #05152e;
+    background-color: #05152e;
+    padding: 5px;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.btsobremim:hover {
+    background-color: #05152e;
+}
+
+.minha-navbar {
+    background-color: #05152e !important;
+}
+
+.minha-navbar .nav-link,
+.minha-navbar .navbar-brand {
+    color: #d5e6ff !important; /* mesma cor usada no botão */
+}
+
+.card {
+    background-color: #05152e; /* fundo escuro */
+    color: #d5e6ff; /* texto claro */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* sombra leve */
+    padding: 20px;
+}
+
+.card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d5e6ff;
+}
+
+.card .card-text {
+    font-size: 14px;
+    color: #d5e6ff;
+    line-height: 1.6;
+}
+
+.card {
+    margin-top: 70px;
+    margin-left: 66px;
+    width: 500px;
+}
+
+.btprojetos {
+    margin-top: 12px; /* adicione essa linha */
+    margin-left: -1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #05152e;
+    border: solid #d5e6ff;
+    background-color: #d5e6ff;
+    padding: 5px;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.btprojetos:hover {
+    background-color: #d5e6ff;
+}
