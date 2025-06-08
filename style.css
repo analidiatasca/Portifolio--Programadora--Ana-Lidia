@@ -18,13 +18,25 @@
     background-color: #05152e;
 }
 
-.minha-navbar {
-    background-color: #05152e !important;
+/* Mantém a cor azul escura no menu mobile */
+.minha-navbar,
+.navbar-collapse,
+.navbar-nav {
+  background-color: #0b1f3a !important;
 }
 
-.minha-navbar .nav-link,
-.minha-navbar .navbar-brand {
-    color: #d5e6ff !important; /* mesma cor usada no botão */
+/* Deixa os links brancos para boa leitura no fundo escuro */
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+/* Corrige o ícone do botão hamburguer para ser visível no fundo escuro */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: white;
 }
 
 .card {
