@@ -73,3 +73,11 @@
 .btprojetos:hover {
     background-color: #d5e6ff;
 }
+
+@media (max-width: 768px) {
+  .card-texto {
+    max-width: 100% !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
