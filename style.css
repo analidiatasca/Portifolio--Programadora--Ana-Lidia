@@ -90,7 +90,7 @@
 /* Corrige o fundo do botão hamburguer aberto */
 .navbar-toggler:focus,
 .navbar-toggler:active {
-    background-color: white !important;
+    background-color: #05152e !important;
 }
 
 /* Garante que o dropdown (se houver) também fique branco */
