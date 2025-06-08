@@ -95,7 +95,7 @@
 
 /* Garante que o dropdown (se houver) também fique branco */
 .navbar-nav {
-    background-color: white !important;
+    background-color: #05152e !important;
 }
 
 /* Links com cor visível */
