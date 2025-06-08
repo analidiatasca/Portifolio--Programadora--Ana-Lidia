@@ -39,6 +39,17 @@
   border-color: white;
 }
 
+/* Fundo azul escuro em qualquer largura da tela */
+.minha-navbar {
+  background-color: #0b1f3a !important;
+}
+
+/* Também força o container da navbar a manter o fundo */
+.minha-navbar .container-fluid {
+  background-color: #0b1f3a !important;
+}
+
+
 .card {
     background-color: #05152e; /* fundo escuro */
     color: #d5e6ff; /* texto claro */
